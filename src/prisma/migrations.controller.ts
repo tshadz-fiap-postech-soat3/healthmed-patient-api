@@ -10,7 +10,7 @@ export class MigrationsController {
   async runMigrations(): Promise<string> {
     return new Promise((resolve, reject) => {
       exec(
-        'npx prisma migrate dev --name init && npx ts-node src/prisma/seed.ts',
+        'npx prisma migrate deploy && npx ts-node src/prisma/seed.ts',
         (error, stdout, stderr) => {
           if (error) {
             reject(`Migration failed: ${stderr}`);
