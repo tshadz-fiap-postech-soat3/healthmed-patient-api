@@ -1,6 +1,6 @@
 ## Descrição
 
-Hackathon - Software Architecture
+Hackathon - Software Architecture - Healthmed Patient API
 
 Acesse a [Wiki do Projeto](https://github.com/tshadz-fiap-postech-soat3/healthmed/wiki) para mais informações a respeito dos:
 
